@@ -8,14 +8,26 @@
 
 #image {
   top: 8em;
-  left: 14%;
+  left: 12%;
   position: absolute;
-  height: 55%;
-  width: 65%;
+  height: 60%;
+  width: 68.5%;
   margin: 3%;
   background-image: url(fond.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+
+}
+
+.trait {
+  position: absolute;
+  border : solid 0.6px black;
+  width: 90%;
+  top: 50%;
+  right: 7%;
+  z-index: 3;
+  transform: rotate(156deg);
+
 
 }
 
@@ -24,14 +36,14 @@
   font-size: 9em;
   position: absolute;
   left: -0.45em;
-  top: 3em;
+  top: 0.5em;
 }
 
 .folio {
   font-family: Limelight, sans-serif;
   font-size: 9em;
   position: absolute;
-  bottom: 5em;
+  bottom: 0.5em;
   right: -0.323em;
 }
 
@@ -57,33 +69,35 @@
 h3{
 
   position: absolute;
-  bottom: 15em;
+
 
 
 }
 
 .about {
-  left: 50em;
+  left: 60em;
   font-family: Cinzel serif;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 10px;
   letter-spacing:0.85em;
+  bottom: 9%;
 }
 
 .contact {
-  right: 50em;
+  right: 60em;
   font-family: Cinzel serif;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 10px;
   letter-spacing: 0.85em;
+  bottom: 9%;
 }
 
 .paris {
   position: absolute;
   top: 50%;
-  left: 15%;
+  left: 13%;
   font-size: 2em;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
@@ -92,7 +106,7 @@ h3{
 
 //Media Query ----------------------------//
 
-@media (min-width: 320px) {
+@media (min-width: 320px) (max-width:424px) {
   .port {
     top: 1.5em;
   }
@@ -117,7 +131,7 @@ h3{
   }
 }
 
-@media (min-width: 425px) {
+@media (min-width: 425px) (max-width: 767px) {
   .port {
     top: 0.7em;
   }
