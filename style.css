@@ -1,0 +1,153 @@
+
+#wrapper {
+  height: 100vh;
+  background-color: white;
+  position: relative;
+
+}
+
+#image {
+  top: 8em;
+  left: 14%;
+  position: absolute;
+  height: 55%;
+  width: 65%;
+  margin: 3%;
+  background-image: url(fond.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.port {
+  font-family: Limelight, sans-serif;
+  font-size: 9em;
+  position: absolute;
+  left: -0.45em;
+  top: 3em;
+}
+
+.folio {
+  font-family: Limelight, sans-serif;
+  font-size: 9em;
+  position: absolute;
+  bottom: 5em;
+  right: -0.323em;
+}
+
+.nom {
+  font-family: Cinzel, serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  position: absolute;
+  top: 2.3em;
+  left: 4em;
+  letter-spacing: 1px;
+}
+.dev {
+  font-family: Cinzel, serif;
+  font-weight: 400;
+  font-size: 1em;
+  position: absolute;
+  top: 6em;
+  right: 4em;
+  letter-spacing: 0.9px;
+}
+
+h3{
+
+  position: absolute;
+  bottom: 15em;
+
+
+}
+
+.about {
+  left: 50em;
+  font-family: Cinzel serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing:0.85em;
+}
+
+.contact {
+  right: 50em;
+  font-family: Cinzel serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.85em;
+}
+
+.paris {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  font-size: 2em;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+
+//Media Query ----------------------------//
+
+@media (min-width: 320px) {
+  .port {
+    top: 1.5em;
+  }
+
+  .folio {
+    top: 5em;
+  }
+
+  .paris {
+    left: 4em;
+  }
+
+  h3 {
+    bottom: 35%;
+  }
+
+  .about {
+    left: 30%;
+  }
+  .contact {
+    right: 30%;
+  }
+}
+
+@media (min-width: 425px) {
+  .port {
+    top: 0.7em;
+  }
+
+  .folio {
+    top: 4em;
+  }
+
+  .paris {
+    left: 4em;
+  }
+
+  h3 {
+    bottom: 32%;
+  }
+
+  .about {
+    left: 30%;
+  }
+  .contact {
+    right: 30%;
+  }
+}
+
+@media (min-width: 768px) (max-width: 1300px) {
+  .folio {
+    top: 3em;
+  }
+}
+
+h3 {
+  bottom: 28%;
+}
