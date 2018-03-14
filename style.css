@@ -156,12 +156,17 @@ h3{
   }
 }
 
-@media (min-width: 768px) (max-width: 1300px) {
+@media (min-width: 768px) (max-width: 1350px) {
   .folio {
     top: 3em;
   }
-}
 
 h3 {
   bottom: 28%;
+}
+
+.paris {
+  bottom: 10%;
+  left:
+  }
 }
