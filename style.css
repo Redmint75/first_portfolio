@@ -50,7 +50,7 @@
 .nom {
   font-family: Cinzel, serif;
   font-weight: 400;
-  font-size: 1.4em;
+  font-size: 1.3em;
   position: absolute;
   top: 2.3em;
   left: 4em;
@@ -75,7 +75,7 @@ h3{
 }
 
 .about {
-  left: 60em;
+  right: 60em;
   font-family: Cinzel serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -85,7 +85,7 @@ h3{
 }
 
 .contact {
-  right: 60em;
+  left: 60em;
   font-family: Cinzel serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -106,7 +106,7 @@ h3{
 
 //Media Query ----------------------------//
 
-@media (min-width: 320px) (max-width:424px) {
+@media (min-width: 320px) and (max-width:424px) {
   .port {
     top: 1.5em;
   }
@@ -131,7 +131,7 @@ h3{
   }
 }
 
-@media (min-width: 425px) (max-width: 767px) {
+@media (min-width: 425px) and (max-width: 767px) {
   .port {
     top: 0.7em;
   }
@@ -156,9 +156,10 @@ h3{
   }
 }
 
-@media (min-width: 768px) (max-width: 1350px) {
+@media (min-width: 768px) and (max-width: 1350px) {
   .folio {
-    top: 3em;
+    top: 1.8em;
+    right: -0.329em;
   }
 
 h3 {
@@ -166,7 +167,14 @@ h3 {
 }
 
 .paris {
-  bottom: 10%;
-  left:
+  bottom: 30%;
+  left: 12%
   }
+}
+
+.contact  {
+  left: 30%;
+}
+.about {
+  right: 30%;
 }
